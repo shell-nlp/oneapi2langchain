@@ -25,7 +25,7 @@ pip install --upgrade oneapi2langchain
 
 ```python
 
-from langchain_api import ChatSpark
+from oneapi2langchain import ChatSpark
 from dotenv import load_dotenv  # 加载 APP_ID 等配置
 load_dotenv()
 
