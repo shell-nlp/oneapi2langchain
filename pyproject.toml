@@ -5,15 +5,13 @@ description = "langchain实现的闭源模型统一API"
 authors = ["liuyu <506610466@qq.com>"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/shell-nlp/oneapi2langchain"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+langchain = { version = ">=0.0.321", python = ">=3.8.1" }
 
 
-[[tool.poetry.source]]
-name = "foo"
-url = "https://pypi.example.org/simple/"
-priority = "supplemental"
 
 [build-system]
 requires = ["poetry-core"]

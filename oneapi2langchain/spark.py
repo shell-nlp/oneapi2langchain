@@ -133,7 +133,7 @@ if __name__ == "__main__":
     from dotenv import load_dotenv
 
     load_dotenv()
-    llm = ChatSpark()
+    llm = ChatSpark() # 测试成功
     # # 测试 string  ok
     # ret = llm.predict("你是谁",stop=['科大讯飞'])
     # print(ret)
