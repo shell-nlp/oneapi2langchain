@@ -1,6 +1,6 @@
 from typing import List
 import json
-from sparkai.memory import ChatMessageHistory
+from oneapi2langchain.sparkai.memory import ChatMessageHistory
 
 
 class Header():

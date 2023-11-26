@@ -1,7 +1,7 @@
 from typing import Any, Dict, List
 
-from sparkai.memory.chat_memory import BaseChatMemory
-from sparkai.schema import BaseLanguageModel, BaseMessage, get_buffer_string
+from oneapi2langchain.sparkai.memory.chat_memory import BaseChatMemory
+from oneapi2langchain.sparkai.schema import BaseLanguageModel, BaseMessage, get_buffer_string
 
 
 class ConversationTokenBufferMemory(BaseChatMemory):

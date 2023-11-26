@@ -3,9 +3,9 @@ from typing import Any, Dict, Optional, Tuple
 
 from pydantic import Field
 
-from sparkai.memory.chat_message_histories.in_memory import ChatMessageHistory
-from sparkai.memory.utils import get_prompt_input_key
-from sparkai.schema import BaseChatMessageHistory, BaseMemory
+from oneapi2langchain.sparkai.memory.chat_message_histories.in_memory import ChatMessageHistory
+from oneapi2langchain.sparkai.memory.utils import get_prompt_input_key
+from oneapi2langchain.sparkai.schema import BaseChatMessageHistory, BaseMemory
 
 
 class BaseChatMemory(BaseMemory, ABC):

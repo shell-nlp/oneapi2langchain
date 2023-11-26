@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractmethod
 from functools import wraps
 from typing import Callable, Iterable, Set, Union, Any, Tuple
 
-from sparkai.errors import SparkAIObjectFormationError
+from oneapi2langchain.sparkai.errors import SparkAIObjectFormationError
 
 
 class BaseObject:

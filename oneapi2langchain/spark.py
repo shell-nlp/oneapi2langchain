@@ -42,7 +42,7 @@ class ChatSpark(BaseChatModel):
             root_dir = os.path.dirname(__file__)
             root_dir = os.path.abspath(root_dir)
             sys.path.append(root_dir)
-            from sparkai.api_resources.chat_completion import SparkOnceWebsocket
+            from oneapi2langchain.sparkai.api_resources.chat_completion import SparkOnceWebsocket
             values["client"] = SparkOnceWebsocket(
                 api_key=get_from_dict_or_env(values, "api_key", "API_KEY"),
                 api_secret=get_from_dict_or_env(values, "api_secret", "API_SECRET"),

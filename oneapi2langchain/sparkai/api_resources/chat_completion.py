@@ -5,13 +5,13 @@ from typing import Union, Optional, List, Callable, Tuple
 
 import websocket
 from openai.api_resources.abstract.engine_api_resource import EngineAPIResource
-from sparkai.socket_mode.websocket_client import SparkMessageStatus, ResponseMessage
+from oneapi2langchain.sparkai.socket_mode.websocket_client import SparkMessageStatus, ResponseMessage
 
-from sparkai.schema import ChatMessage
-from sparkai.models.chat import ChatBody, ChatResponse
+from oneapi2langchain.sparkai.schema import ChatMessage
+from oneapi2langchain.sparkai.models.chat import ChatBody, ChatResponse
 
-from sparkai.xf_util import build_auth_request_url
-from sparkai.log.logger import logger
+from oneapi2langchain.sparkai.xf_util import build_auth_request_url
+from oneapi2langchain.sparkai.log.logger import logger
 
 
 class ChatCompletion(EngineAPIResource):

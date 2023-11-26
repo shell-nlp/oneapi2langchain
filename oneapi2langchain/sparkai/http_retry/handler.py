@@ -5,11 +5,11 @@ You can pass an array of handlers to customize retry logics in supported API cli
 import time
 from typing import Optional
 
-from sparkai.http_retry.state import RetryState
-from sparkai.http_retry.request import HttpRequest
-from sparkai.http_retry.response import HttpResponse
-from sparkai.http_retry.interval_calculator import RetryIntervalCalculator
-from sparkai.http_retry.builtin_interval_calculators import (
+from oneapi2langchain.sparkai.http_retry.state import RetryState
+from oneapi2langchain.sparkai.http_retry.request import HttpRequest
+from oneapi2langchain.sparkai.http_retry.response import HttpResponse
+from oneapi2langchain.sparkai.http_retry.interval_calculator import RetryIntervalCalculator
+from oneapi2langchain.sparkai.http_retry.builtin_interval_calculators import (
     BackoffRetryIntervalCalculator,
 )
 

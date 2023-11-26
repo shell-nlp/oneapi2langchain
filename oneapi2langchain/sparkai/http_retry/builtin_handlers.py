@@ -4,11 +4,11 @@ from http.client import RemoteDisconnected
 from typing import Optional, List, Type
 from urllib.error import URLError
 
-from sparkai.http_retry.interval_calculator import RetryIntervalCalculator
-from sparkai.http_retry.state import RetryState
-from sparkai.http_retry.request import HttpRequest
-from sparkai.http_retry.response import HttpResponse
-from sparkai.http_retry.handler import RetryHandler, default_interval_calculator
+from oneapi2langchain.sparkai.http_retry.interval_calculator import RetryIntervalCalculator
+from oneapi2langchain.sparkai.http_retry.state import RetryState
+from oneapi2langchain.sparkai.http_retry.request import HttpRequest
+from oneapi2langchain.sparkai.http_retry.response import HttpResponse
+from oneapi2langchain.sparkai.http_retry.handler import RetryHandler, default_interval_calculator
 
 
 class ConnectionErrorRetryHandler(RetryHandler):

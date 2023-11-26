@@ -1,6 +1,6 @@
 from typing import Any, Dict, List
 
-from sparkai.schema import BaseMemory
+from oneapi2langchain.sparkai.schema import BaseMemory
 
 
 class CombinedMemory(BaseMemory):
