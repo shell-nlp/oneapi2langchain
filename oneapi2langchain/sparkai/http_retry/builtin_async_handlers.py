@@ -4,12 +4,12 @@ from typing import Optional, List, Type
 
 from aiohttp import ServerDisconnectedError, ServerConnectionError, ClientOSError
 
-from sparkai.http_retry.async_handler import AsyncRetryHandler
-from sparkai.http_retry.interval_calculator import RetryIntervalCalculator
-from sparkai.http_retry.state import RetryState
-from sparkai.http_retry.request import HttpRequest
-from sparkai.http_retry.response import HttpResponse
-from sparkai.http_retry.handler import default_interval_calculator
+from oneapi2langchain.sparkai.http_retry.async_handler import AsyncRetryHandler
+from oneapi2langchain.sparkai.http_retry.interval_calculator import RetryIntervalCalculator
+from oneapi2langchain.sparkai.http_retry.state import RetryState
+from oneapi2langchain.sparkai.http_retry.request import HttpRequest
+from oneapi2langchain.sparkai.http_retry.response import HttpResponse
+from oneapi2langchain.sparkai.http_retry.handler import default_interval_calculator
 
 
 class AsyncConnectionErrorRetryHandler(AsyncRetryHandler):

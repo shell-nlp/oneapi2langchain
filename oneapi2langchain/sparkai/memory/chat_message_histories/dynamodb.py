@@ -1,7 +1,7 @@
 import logging
 from typing import List
 
-from sparkai.schema import (
+from oneapi2langchain.sparkai.schema import (
     AIMessage,
     BaseChatMessageHistory,
     BaseMessage,

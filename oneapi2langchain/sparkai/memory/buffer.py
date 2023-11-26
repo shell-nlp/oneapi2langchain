@@ -2,9 +2,9 @@ from typing import Any, Dict, List, Optional
 
 from pydantic import root_validator
 
-from sparkai.memory.chat_memory import BaseChatMemory, BaseMemory
-from sparkai.memory.utils import get_prompt_input_key
-from sparkai.schema import get_buffer_string
+from oneapi2langchain.sparkai.memory.chat_memory import BaseChatMemory, BaseMemory
+from oneapi2langchain.sparkai.memory.utils import get_prompt_input_key
+from oneapi2langchain.sparkai.schema import get_buffer_string
 
 
 class ConversationBufferMemory(BaseChatMemory):

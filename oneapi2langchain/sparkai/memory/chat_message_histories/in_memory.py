@@ -2,7 +2,7 @@ from typing import List
 
 from pydantic import BaseModel
 
-from sparkai.schema import (
+from oneapi2langchain.sparkai.schema import (
     AIMessage,
     BaseChatMessageHistory,
     BaseMessage,
